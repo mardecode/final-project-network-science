@@ -14,7 +14,7 @@ import json
 import sys
 
 class SListener(StreamListener):
-    def __init__(self, api = None, fprefix = 'streamer', time_limit=60):
+    def __init__(self, api = None, fprefix = 'streamer', time_limit=120):
         self.api = api 
         self.counter = 0
         self.counterT= 0
@@ -77,14 +77,14 @@ class SListener(StreamListener):
     def on_timeout(self):
         sys.stderr.write("Timeout \n")
         self.error.write("Timeout \n")
-        time.sleep(60)
+        time.sleep(120)
         return 
 
-consumer_key = "1dAGo5lZyl8J6AHEL5IYg"
-consumer_secret = "tVJfogDCRJdOpo0aK19fI6TugEfnaLPYipzrjqz6X0"
+consumer_key = consumer_key
+consumer_secret = consumer_secret 
 
-access_key = "84490435-dNltopbXXLTTckUKtAKP8Wt6xafkA4CDp5MswcIqX"
-access_secret = "s7bTXavUus6p70AkvWEvaLE8y71O2tZOL92mHx7gg"
+access_key = access_key
+access_secret = access_secret
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -112,7 +112,7 @@ filePeru = 'TwitterData/Peru/'
 trackPeru = ['Elecciones Peru 2021', '2021 Peruvian Election', 'Perú libre', 'Fuerza Popular',
              '#fujiratas', '#eleccionebicentenario', '#Castillonomerepresenta', '#PedroCastilloNiCagando',
              '#CastilloNoVa','#PedroCastillo', '#PedroCastilloComunista', '#KeikoFujimori', '#FujiTrol',
-             '#unvotoporlapatria', '#fujimorismo', "#votoviciado", "#nulo", "#noacastillo", "#noakeiko"]
+             '#unvotoporlapatria', '#Fujimori', "#votoviciado", "#nulo", "#noacastillo", "#noakeiko"]
 
 fileMexico = 'TwitterData/Mexico/'
 trackMexico = ['Elecciones Mexico 2021', '2021 Mexican Election', 'MRN Mexico', 'PAN Mexico', 'PRI Mexico', 'PRD Mexico', 'PT Mexico', 'PVEM Mexico']

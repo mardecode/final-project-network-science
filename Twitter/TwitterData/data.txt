@@ -1,0 +1,29 @@
+Se separo la da en bloques de 4 semanas que contiene aproximadamente 12 dias 
+1 semana: 22/04 - 02/05
+2 semana: 03/05 - 14/05
+3 semana: 15/05 - 26/05
+4 semana: 27/05 - 05/06
+
+Semana1
+Users: 12282
+HashTags:  1296
+Number of Nodes:  13578
+Number of Edges:  42117
+
+Semana2
+Users: 14628
+HashTags:  1839
+Number of Nodes:  16467
+Number of Edges:  56432
+
+Semana3
+Users: 12756
+HashTags:  1614
+Number of Nodes:  14370
+Number of Edges:  46734
+
+Semana4
+Users: 18483
+HashTags:  1902
+Number of Nodes:  20385
+Number of Edges:  80214
