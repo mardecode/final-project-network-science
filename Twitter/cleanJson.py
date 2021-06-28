@@ -7,6 +7,7 @@ Created on Wed May  5 15:08:00 2021
 
 import json
 import os
+from unidecode import unidecode
 
 def finddataTest(pathDir):
     dataTest = []
@@ -21,8 +22,8 @@ def finddataTest(pathDir):
     return dataTest1
 
 
-NodesHashTagFile = open('twitterData/twitterNodesHashTag.txt', 'w', encoding='utf-8')
-NodesUsersFile = open('twitterData/twitterNodesUser.txt', 'w', encoding='utf-8')
+NodesHashTagFile = open('twitterData/twitterNodesHashTag1.txt', 'w', encoding='utf-8')
+NodesUsersFile = open('twitterData/twitterNodesUser1.txt', 'w', encoding='utf-8')
 
 def addNodesEdges(dict_, dicUser_, path):    
     with open(path) as data_file:
@@ -38,7 +39,7 @@ def addNodesEdges(dict_, dicUser_, path):
         #u5 = data["data"][i]["created_at"]
         
         for j in range(len(u3)):
-            uu3 = u3[j]["text"].casefold()
+            uu3 = unidecode(u3[j]["text"].casefold())
             
             if not( uu3 in dict_):
                 NodesHashTagFile.write(uu3 + "\n")
@@ -52,7 +53,7 @@ def addNodesEdges(dict_, dicUser_, path):
             
             
 
-paths = finddataTest('twitterData/Peru/Semana4/')
+paths = finddataTest('twitterData/Peru/Semana1/')
 
 dictHashTagUser = {}
 dictUserFollower = {}
@@ -69,13 +70,13 @@ print("HashTags: ", len(dictHashTagUser))
 
 number_Items = 0
 
-EdgesFile = open('twitterData/twitterEdges.txt', 'w', encoding='utf-8')
+EdgesFile = open('twitterData/twitterEdges1.txt', 'w', encoding='utf-8')
 
 for k, v in dictHashTagUser.items():
     if isinstance(v, list):
         number_Items += len(v)
         for j in range(len(v)):
-            EdgesFile.write(k + "\t" + str(v[j]) + "\n")
+            EdgesFile.write(k + "\t" + str(v[j]) + "\t" + str(dictUserFollower[v[j]]) + "\n")
 
 
 print("Number of Nodes: ", len(dictHashTagUser) + len(dictUserFollower))

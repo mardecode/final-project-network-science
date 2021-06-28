@@ -1,0 +1,9 @@
+Number of Nodes: 19509
+Number of Nodes Hash: 701
+Number of Edges: 52465
+Number of Edges Hash: 18289
+Gamma: 0.6664676515796293
+Gamma: 1.019603234963857
+Number of Components: 38
+Average Coefficient Clustering: 0.3296394581850218
+Number of Communities: 126Assorciativity Coefficient: -0.2927591413735436ity Coefficient:  -0.2927591413735436

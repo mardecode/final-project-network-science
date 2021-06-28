@@ -1,0 +1,10 @@
+Number of nodes:  8204
+Number of edges:  15306
+Number of nodes Project Hash:  375
+Number of edges Project Hash:  3293
+Average Degree:  0.7442742523705325
+gamma:  1.0214940962966295
+Number of components:  36
+Average Coefficient Clustering:  0.4678333456623118
+Number of Communities:  230
+Assorciativity Coefficient:  -0.3421788679308052
