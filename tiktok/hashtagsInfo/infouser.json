@@ -1,0 +1,92 @@
+{
+    "seoProps": {
+        "pageId": "6594121926820872197",
+        "pageType": 1,
+        "predictedLanguage": "en",
+        "metaParams": {
+            "title": "fcbarcelona (@fcbarcelona) Official TikTok | Watch fcbarcelona's Newest TikTok Videos",
+            "keywords": "fcbarcelona,fcbarcelona,TikTok, \u30c6\u30a3\u30c3\u30af\u30c8\u30c3\u30af, tik tok, tick tock, tic tok, tic toc, tictok, \u0442\u0438\u043a \u0442\u043e\u043a, ticktock",
+            "description": "fcbarcelona (@fcbarcelona) on TikTok | 99.5M Likes. 8.5M Fans. \ud83d\udd35\ud83d\udd34 More than a Club. M\u00e9s que un Club \ud83c\udfdf #CampNou",
+            "canonicalHref": "https://www.tiktok.com/@fcbarcelona",
+            "robotsContent": "index, follow",
+            "applicableDevice": "pc, mobile"
+        },
+        "itemList": [],
+        "jsonldList": [
+            [
+                "ItemList",
+                {
+                    "itemList": []
+                }
+            ],
+            [
+                "Breadcrumb",
+                {
+                    "urlList": [
+                        {
+                            "name": "TikTok",
+                            "url": "https://www.tiktok.com"
+                        },
+                        {
+                            "name": "fcbarcelona (@fcbarcelona) | TikTok",
+                            "url": "https://www.tiktok.com/@fcbarcelona"
+                        }
+                    ]
+                }
+            ],
+            [
+                "Person",
+                {
+                    "name": "fcbarcelona",
+                    "description": "\ud83d\udd35\ud83d\udd34 More than a Club. M\u00e9s que un Club\n\ud83c\udfdf #CampNou",
+                    "alternateName": "fcbarcelona",
+                    "mainEntityOfPage": {
+                        "@type": "ProfilePage",
+                        "@id": "https://www.tiktok.com/@fcbarcelona"
+                    }
+                }
+            ]
+        ]
+    },
+    "$language": "en",
+    "statusCode": 0,
+    "statusMsg": "",
+    "userInfo": {
+        "user": {
+            "id": "6594121926820872197",
+            "shortId": "0",
+            "uniqueId": "fcbarcelona",
+            "nickname": "fcbarcelona",
+            "avatarLarger": "https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1674225874179077~c5_1080x1080.jpeg?x-expires=1619899200&x-signature=pw7Vq0aKjnhaE1bufiniItgWsPg%3D",
+            "avatarMedium": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1674225874179077~c5_720x720.jpeg?x-expires=1619899200&x-signature=rp0T80a19Q27UPr%2BMaDAKDKQzII%3D",
+            "avatarThumb": "https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/1674225874179077~c5_100x100.jpeg?x-expires=1619899200&x-signature=N%2FUIu3LH4n%2BK%2BoHvQHQXBMLYvFg%3D",
+            "signature": "\ud83d\udd35\ud83d\udd34 More than a Club. M\u00e9s que un Club\n\ud83c\udfdf #CampNou",
+            "createTime": 1560878373,
+            "verified": true,
+            "secUid": "MS4wLjABAAAA9-qvPFl1EftyNygyX8bb3YhYJEijTCgnZFs-eKsn2eL6CbDluqhpGMgywJLj14nR",
+            "ftc": false,
+            "relation": 0,
+            "openFavorite": false,
+            "commentSetting": 0,
+            "commerceUserInfo": {
+                "commerceUser": true,
+                "downLoadLink": {}
+            },
+            "duetSetting": 0,
+            "stitchSetting": 0,
+            "privateAccount": false,
+            "secret": false,
+            "isADVirtual": false,
+            "roomId": ""
+        },
+        "stats": {
+            "followerCount": 8500000,
+            "followingCount": 8,
+            "heart": 99500000,
+            "heartCount": 99500000,
+            "videoCount": 494,
+            "diggCount": 0
+        },
+        "itemList": []
+    }
+}
