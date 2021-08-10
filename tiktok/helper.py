@@ -2,6 +2,9 @@ import json
 import pickle
 import glob
 import os
+import matplotlib.pyplot as plt
+import networkx as nx
+
 
 
 def getPickle(filename):
@@ -25,3 +28,10 @@ def readFile(filename):
 def toJson(var):
   return json.dumps(var,indent=4)
 
+def degreeDistribution(G):
+  degree_freq = nx.degree_histogram(G)
+  degrees = range(len(degree_freq))
+  plt.xlabel('k')
+  plt.ylabel('pk')
+  plt.loglog(degrees,degree_freq,'bo')
+  plt.show()
